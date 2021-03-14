@@ -1,27 +1,27 @@
 '''
-**************************************************************
-  Program  lessson_5.py
-  Author   Baba
-  Date     March 13, 2021
-
-  Description:
-  This program is used to introduce Geniuses to using a 
-  database Structured Query Language (SQL).  The program
-  imports the sqlite3 module which allows you to create
-  and interact with an SQL Database
-
-  - The create_connection function is passed the
-    path of the SQLite database file then it connects 
-    the app to an exixting SQLite3 database named hgp_pods 
-    or if it;s not present it creates the database file
-  
-  - The execute_query function is passed the path and the 
-    query to implement; create_staff_member_table query and
-    add_staff_member query
-
-  - The execute_read function is passed the path and 
-    the display_staff_member query
-**************************************************************
+****************************************************************************
+*  Program  lessson_5.py                                                   *
+*  Author   Baba                                                           *
+*  Date     March 13, 2021                                                 *
+*  Source   Realpython https://realpython.com/python-sql-libraries/#sqlite *
+*  Description:                                                            *
+*  This program is used to introduce Geniuses to using a                   *
+*  database Structured Query Language (SQL).  The program                  *
+*  imports the sqlite3 module which allows you to create                   *
+*  and interact with an SQL Database                                       *
+*                                                                          *
+*  - The create_connection function is passed the                          *
+*    path of the SQLite database file then it connects                     *
+*    the app to an exixting SQLite3 database named hgp_pods                *
+*    or if it;s not present it creates the database file                   *
+*                                                                          *
+*  - The execute_query function is passed the path and the                 *
+*    query to implement; create_staff_member_table query and               *
+*    add_staff_member query                                                *
+*                                                                          *
+*  - The execute_read function is passed the path and                      *
+*    the display_staff_member query                                        *
+****************************************************************************
 
 '''
 
